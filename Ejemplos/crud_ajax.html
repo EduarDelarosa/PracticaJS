@@ -79,7 +79,7 @@
         ajax({
           url: 'http://localhost:3000/santos',
           success: (res) => {
-            console.log(res);
+            // console.log(res);
             res.forEach(el => {
               $template.querySelector('.name').textContent = el.nombre;
               $template.querySelector('.const').textContent = el.const;
