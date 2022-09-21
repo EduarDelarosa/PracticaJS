@@ -6,25 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/style.css">
   <title>Sitio</title>
+  <script src="assets/include-html.js"></script>
 </head>
+
 <body>
-  <header class="header">
-    <section class="header-content container">
-      <article class="logo">
-        <img src="../assets/homero.jpg" alt="">
-      </article>
-      <nav class="menu">
-        <a href="assets/home.html">Home</a>
-        <a href="assets/acerca.html">Acerca</a>
-        <a href="assets/servicios.html">Servicios</a>
-        <a href="assets/contacto.html">Contacto</a>
-      </nav>
-    </section>
-  </header>
+  <div data-include="assets/header.html"></div>
   <main class="container"></main>
-  <footer class="footer container">
-    <p>Sitio - Ajax</p>
-  </footer>
+  <div data-include="assets/footer.html"></div>
 
   <script>
     const d = document,
